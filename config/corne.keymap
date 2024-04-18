@@ -19,7 +19,7 @@
 
         combo_power_off {
             bindings = <&soft_off>;
-            key-positions = <13 14 7>;
+            key-positions = <13 14>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0 1 2>;
