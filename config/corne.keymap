@@ -17,9 +17,17 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_power_off {
+        combo_power_off_left {
             bindings = <&soft_off>;
             key-positions = <13 14>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <100>;
+            layers = <0 1 2>;
+        };
+
+        combo_power_off_right {
+            bindings = <&soft_off>;
+            key-positions = <6 7>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
             layers = <0 1 2>;
